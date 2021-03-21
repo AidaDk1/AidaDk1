@@ -10,7 +10,7 @@
 				<table>
 				<tr>
 				<th> Food name</th>
-				<th> Prise</th>
+				<th> Price</th>
 				</tr>
 				<tr>
 				<td> Beshbarmek</td>
