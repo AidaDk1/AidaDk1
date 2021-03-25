@@ -29,9 +29,7 @@ CREATE TABLE `categories` (
   `long_desc` varchar(500) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `categories`
---
+
 
 INSERT INTO `categories` (`id`, `name`, `short_desc`, `long_desc`) VALUES
 (7, 'North Indian', 'This is a popular category in Northern India', 'Indian cuisine encompasses a wide variety of regional cuisine native to India. Given the range of diversity in soil type, climate and occupations, these cuisines vary significantly from each other and use locally available chocolates, herbs, vegetables and fruits. The dishes are then served according to taste in either mild, medium or hot. Indian food is also heavily influenced by religious and cultural choices, like Hinduism and traditions.'),
@@ -94,65 +92,40 @@ INSERT INTO `users` (`id`, `name`, `email`, `password`, `timestamp`) VALUES
 ALTER TABLE `admin`
   ADD PRIMARY KEY (`id`);
 
---
--- Indexes for table `categories`
---
+
 ALTER TABLE `categories`
   ADD PRIMARY KEY (`id`);
 
---
--- Indexes for table `food`
---
+
 ALTER TABLE `food`
   ADD PRIMARY KEY (`id`);
 
---
--- Indexes for table `orders`
---
+
 ALTER TABLE `orders`
   ADD PRIMARY KEY (`id`);
 
---
--- Indexes for table `users`
---
+
 ALTER TABLE `users`
   ADD PRIMARY KEY (`id`);
 
---
--- AUTO_INCREMENT for dumped tables
---
 
---
--- AUTO_INCREMENT for table `admin`
---
 ALTER TABLE `admin`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
---
--- AUTO_INCREMENT for table `categories`
---
+
 ALTER TABLE `categories`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
---
--- AUTO_INCREMENT for table `food`
---
+
 ALTER TABLE `food`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
---
--- AUTO_INCREMENT for table `orders`
---
+
 ALTER TABLE `orders`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
---
--- AUTO_INCREMENT for table `users`
---
+
 ALTER TABLE `users`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
