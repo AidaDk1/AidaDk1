@@ -26,33 +26,33 @@ session_start();
 </head>
 <body>
 
-	<?php require('chunks/login-modal.php'); ?>
+	<?php require("chunks/login-modal.php"); ?>
 
 
-	<?php require('chunks/register-modal.php'); ?>
+	<?php require("chunks/register-modal.php"); ?>
 
 
-	<?php require('chunks/info-modal.php'); ?>
+	<?php require("chunks/info-modal.php"); ?>
 
 
-	<?php require('chunks/navbar.php'); ?>
+	<?php require("chunks/navbar.php"); ?>
 
 
-	<?php require('chunks/banner-slider.php'); ?>
-
-
-
-
-	<?php require('chunks/categories.php'); ?>
+	<?php require("chunks/banner-slider.php"); ?>
 
 
 
+
+	<?php require("chunks/categories.php"); ?>
 
 
 
 
 
-	<?php require('chunks/footer.php'); ?>
+
+
+
+	<?php require("chunks/footer.php"); ?>
 
 
 
