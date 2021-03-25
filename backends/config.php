@@ -1,6 +1,6 @@
 <?php
 
-$host = "localhost";
+$host = "herokuapp";
 $user= "root";
 $pwd = "";
 $database = "mishtidb";
